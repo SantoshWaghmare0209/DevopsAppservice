@@ -37,4 +37,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-     echo Deployment job test workflow.
+    - name: Deployment
+      run: echo Deployment, job test workflow.
